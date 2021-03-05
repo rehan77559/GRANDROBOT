@@ -49,7 +49,7 @@ Hello! my name *{}*.
 And the following:
 """.format(dispatcher.bot.first_name, "" if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n")
 
-TECHNO_IMG = "https://telegra.ph/file/fc7858375e53866ec8b0d.jpg"
+TECHNO_IMG = "https://telegra.ph/file/c1e81ba3c04b6988954d8.jpg"
 IMPORTED = {}
 MIGRATEABLE = []
 HELPABLE = {}
@@ -142,11 +142,11 @@ def start(bot: Bot, update: Update, args: List[str]):
                 parse_mode=ParseMode.MARKDOWN, reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(text="🤝HELP🤝",
                                                                        callback_data="help_back".format(bot.username)),
                                                                                    InlineKeyboardButton(text="🧑‍💻My Creator🧑‍💻",
-                                                                       url="t.me/White_devil_XD_bot")],
-                                                                                   [InlineKeyboardButton(text="ADD WHITE DEVIL BOT GROUP",
+                                                                       url="t.me/@WHITE_DEVIL_Op")],
+                                                                                   [InlineKeyboardButton(text="Miss Sits Bot GROUP",
                                                                        url="t.me/{}?startgroup=true".format(bot.username)),
                                                                                    InlineKeyboardButton(text="Source Code",
-                                                                       url="https://github.com/legendx22/GRANDROBOT")
+                                                                       url="https://github.com/soory nothing")
                                                                                  ]]))
 
     else:
